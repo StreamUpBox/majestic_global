@@ -7605,23 +7605,23 @@ figure {
   position: relative;
   float: left;
   width: 100%;
+  background-color: rgba(0,0,0,0.5)!important;
 }
 
 #fh5co-header-section {
   background: transparent;
   padding: 0;
   width: 100%;
+  background-color: rgba(0,0,0,0.5)!important;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header-section {
     padding: 2.4em 0;
+    
   }
-}
-
-.nav-header {
-  position: relative;
-  float: left;
-  width: 100%;
+  .nav-header {
+    background-color: rgba(0,0,0,0.5)!important;
+  }
 }
 
 #fh5co-logo {
