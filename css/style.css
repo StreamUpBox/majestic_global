@@ -7605,7 +7605,6 @@ figure {
   position: relative;
   float: left;
   width: 100%;
-  background-color: rgba(0,0,0,0.5)!important;
 }
 
 #fh5co-header-section {
@@ -7620,7 +7619,6 @@ figure {
     
   }
   .nav-header {
-    background-color: rgba(0,0,0,0.5)!important;
   }
 }
 
@@ -8905,7 +8903,7 @@ input[type="text"] {
 .fh5co-table,
 .fh5co-table-cell,
 .fh5co-parallax {
-  height: 380px;
+  height: 510px;
 }
 
 .fh5co-parallax {
@@ -8913,6 +8911,7 @@ input[type="text"] {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
+  background-repeat: no-repeat;
 }
 .fh5co-parallax .overlay {
   position: absolute;
